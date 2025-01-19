@@ -1,0 +1,39 @@
+{
+  "name": "obsidian-heatmap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mczeno/obsidian-heatmap.git"
+  },
+  "keywords": [],
+  "author": "Mczeno",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mczeno/obsidian-heatmap/issues"
+  },
+  "homepage": "https://github.com/Mczeno/obsidian-heatmap#readme",
+  "description": "Obsidian 的热力图插件",
+  "dependencies": {
+    "d3-scale": "^4.0.2",
+    "d3-time": "^3.1.0",
+    "d3-time-format": "^4.1.0",
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "3.1.2",
+    "@types/node": "20.14.8",
+    "obsidian": "1.7.2",
+    "svelte": "4.2.18",
+    "svelte-preprocess": "5.1.4",
+    "typescript": "5.7.3",
+    "vite": "5.4.11"
+  }
+}
